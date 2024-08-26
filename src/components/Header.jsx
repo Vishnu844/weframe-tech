@@ -8,12 +8,12 @@ import { BsToggle2On } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <section className="mt-10 flex items-center justify-between">
+      <section className="mt-10 flex gap-5 items-center justify-between md:items-start">
         <div className="hidden items-center gap-2 md:flex">
           <ListIcon />
           <p className="text-[#116A6C] text-4xl font-semibold">Blüten</p>
         </div>
-        <div className="flex items-center flex-wrap gap-4 md:flex-nowrap">
+        <div className="flex items-center flex-wrap gap-4 lg:flex-nowrap">
           <Searchbar />
           <div className="flex items-center gap-2 py-0.5 px-[10px] bg-[#62C3C64D] rounded">
             <p className="text-[#365758] text-base font-semibold tracking-[1%]">
