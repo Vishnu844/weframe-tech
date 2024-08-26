@@ -24,7 +24,7 @@ const Navbar = () => {
           <ul className="flex gap-4 items-center">
             {links.map((link) => {
               return (
-                <div key={link.id} className="flex gap-[2px] items-center">
+                <li key={link.id} className="flex gap-[2px] items-center">
                   <ListIcon
                     color={
                       link.id == 1
@@ -32,14 +32,14 @@ const Navbar = () => {
                         : ListIcon.color.normal
                     }
                   />
-                  <li
+                  <div
                     className={`text-[#045A5C] text-base" ${
                       link.id == 1 ? "font-bold" : ""
                     }`}
                   >
                     {link.name}
-                  </li>
-                </div>
+                  </div>
+                </li>
               );
             })}
           </ul>
