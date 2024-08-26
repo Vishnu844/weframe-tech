@@ -10,7 +10,7 @@ const Searchbar = () => {
           placeholder="Suchen"
           className="bg-[#EEF7F7] border-0 outline-none text-[#62C3C6] placeholder:text-[#62C3C6]"
         />
-        <button>
+        <button aria-label="search" className="w-4 h-4">
           <LuSearch className="text-[#28E3E9] w-4 h-4" />
         </button>
       </div>

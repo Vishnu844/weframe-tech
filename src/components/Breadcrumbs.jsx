@@ -21,7 +21,7 @@ const Breadcrumbs = () => {
           <Link href="#" className="text-[#365758]">
             GKV mit Kostenübernahme?
           </Link>
-          <button className="text-[#045A5C] text-sm border-[2px] border-[#62C3C6] px-[20px] py-2 rounded-tl-[24px] rounded-br-[24px]">
+          <button aria-label="Preisoptionen" className="text-[#045A5C] text-sm border-[2px] border-[#62C3C6] px-[20px] py-2 rounded-tl-[24px] rounded-br-[24px]">
             Preisoptionen
           </button>
         </div>

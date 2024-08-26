@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const Checkbox = () => {
+const Checkbox = ({ name }) => {
   const [checked, setChecked] = useState(false);
   return (
     <div
@@ -12,6 +12,7 @@ const Checkbox = () => {
     >
       <input
         defaultChecked={checked}
+        aria-label={name}
         type="checkbox"
         className="checkbox opacity-0 absolute cursor-pointer w-full h-full"
         onClick={() => setChecked(!checked)}

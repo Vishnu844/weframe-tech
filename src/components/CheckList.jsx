@@ -28,7 +28,7 @@ const CheckList = ({ title = "", options = [] }) => {
             {options?.map((option) => {
               return (
                 <li key={option} className="flex gap-[10px] items-center">
-                  <Checkbox />
+                  <Checkbox name={option} />
                   <div className="text-[#365758] text-base">{option}</div>
                 </li>
               );

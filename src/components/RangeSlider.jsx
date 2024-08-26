@@ -88,6 +88,7 @@ const RangeSlider = ({
           <input
             type="range"
             className="range-min"
+            aria-label="slider1"
             min={min}
             max={max}
             ref={rangeInputMinRef}
@@ -97,6 +98,7 @@ const RangeSlider = ({
           <input
             type="range"
             className="range-max"
+            aria-label="slider2"
             min={min}
             max={max}
             ref={rangeInputMaxRef}
@@ -107,6 +109,7 @@ const RangeSlider = ({
         <div className="flex mt-2">
           <input
             type="text"
+            aria-label="min-value"
             className="w-full py-[2px] px-[10px] bg-[#8191911A] rounded-[20px] focus:outline-none"
             value={
               quantityType === "price" ? `${minQuantity} €` : `${minQuantity} %`
@@ -116,6 +119,7 @@ const RangeSlider = ({
           <span>—</span>
           <input
             type="text"
+            aria-label="max-value"
             className="w-full py-[2px] px-[10px] bg-[#8191911A] rounded-[20px] focus:outline-none"
             value={
               quantityType === "price" ? `${maxQuantity} €` : `${maxQuantity} %`

@@ -50,7 +50,6 @@ const Navbar = () => {
             onClick={() => setMenuState(!menuState)}
           />
           {menuState && (
-            //need to style right-96 acc to different screens
             <div className="absolute top-20 w-56 text-sm bg-white border border-gray-200 shadow-lg">
               <ul>
                 {links.map((link) => {
