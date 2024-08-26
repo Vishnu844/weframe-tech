@@ -1,0 +1,122 @@
+export const links = [
+  { id: 1, name: "Rezept einlösen" },
+  { id: 2, name: "Live Bestand" },
+  { id: 3, name: "Videosprechstunde" },
+  { id: 4, name: "FAQs" },
+  { id: 5, name: "Kontakt" },
+];
+
+export const filters = [
+  {
+    id: 1,
+    name: "Preis",
+    type: "slider",
+    min: 0,
+    max: 20,
+    gap: 2,
+    quantity: "price",
+  },
+  {
+    id: 2,
+    name: "Hersteller",
+    type: "checklist",
+    options: ["ADREXpharma", "Aurora", "Avaay", "Bedrocan", "Cannamedical"],
+    button: "mehr anzeigen",
+  },
+  {
+    id: 3,
+    name: "THC Gehalt",
+    type: "slider",
+    min: 0,
+    max: 50,
+    gap: 5,
+    quantity: "percent",
+  },
+  {
+    id: 4,
+    name: "CBD Gehalt",
+    type: "slider",
+    min: 0,
+    max: 10,
+    gap: 1,
+    quantity: "percent",
+  },
+  {
+    id: 5,
+    name: "Genetik",
+    type: "select",
+    options: ["Sativa", "Indica", "Hybrid"],
+  },
+  {
+    id: 6,
+    name: "Bestrahltung",
+    type: "select",
+    options: ["bestrahlt", "nicht bestrahlt"],
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+  {
+    id: 2,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+  {
+    id: 3,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+  {
+    id: 4,
+    name: "Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify",
+    kultivar: "Pink Kush",
+    THC: 25,
+    newItem: true,
+  },
+  {
+    id: 5,
+    name: "Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify",
+    kultivar: "Pink Kush",
+    THC: 25,
+    newItem: true,
+  },
+  {
+    id: 6,
+    name: "Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify",
+    kultivar: "Pink Kush",
+    THC: 25,
+    newItem: true,
+  },
+  {
+    id: 7,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+  {
+    id: 8,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+  {
+    id: 9,
+    name: "Cannabis Flos 18/1 PT Mango",
+    kultivar: "Mango",
+    THC: 18,
+    newItem: false,
+  },
+];
